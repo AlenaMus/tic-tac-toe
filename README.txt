@@ -8,9 +8,11 @@ Running instructions:
 
 open cmd
 
-cmd : print cd  '/..../tic-tac-toe'          // path to game project
+>> print cd  '/..../tic-tac-toe'          // path to game project
 
-cmd: ng serve
+>> npm install
+
+>> ng serve
 
 open your browser in http://localhost:4200/
 
