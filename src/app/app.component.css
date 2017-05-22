@@ -1,0 +1,95 @@
+.title {
+  /*margin-top: 30px;*/
+  width: 40px;
+  text-align: center;
+  style: bold 20px #e67fff;
+}
+.welcome{
+
+  display: block;
+
+}
+
+div.tic {
+  margin-right: 200px;
+  display: block;
+  background-color: dodgerblue;
+}
+
+.messageBar{
+  width:450px;
+  text-align: center;
+  border: 2px mediumseagreen;
+  background-color: springgreen;
+  color: black;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+div.h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+div.h4 {
+  display: inline;
+  text-align: center;
+  color: aliceblue;
+  width: inherit;
+  background-color: #CC0000;
+  margin-right: 10px;
+}
+
+.h{
+  color: aliceblue;
+  width: inherit;
+  size: 100px;
+  margin-left: 550px;
+  align-content: center;
+  margin-top: 8px;
+  font-size: 26px;
+
+}
+.playB {
+
+  text-emphasis-color: white !important;
+  text-decoration-style: solid;
+  size: 20px;
+
+}
+
+table {
+margin-left: 5px ;
+
+}
+
+.board {
+  display:inline-block;
+  position: fixed;
+
+}
+
+img.icon{
+  max-height: 50px;
+  max-width: 50px;
+  margin-right: 200px;
+}
+
+img.title-img{
+  margin-top: 80px;
+  margin-left: 600px ;
+  width: 400px;
+
+}
+img.welcome {
+  width: 400px;
+  height: 100px;
+}
+
+
+

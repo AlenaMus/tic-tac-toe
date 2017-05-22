@@ -1,3 +1,35 @@
-<h1>
-  {{title}}
-</h1>
+
+<nav class="navbar navbar-default" style="background-color: #CC0000">
+  <div class="container-fluid">
+   <div class="navbar-default">
+  <ul class="nav navbar-nav">
+    <li class="dropdown" appDropdown>
+      <a href="#" class="dropdown-toggle" role="button" style="color:aliceblue">Play Game<span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li appHighlight><a href="#" (click)= "playBasic('BasicGame')" >Basic Game</a></li>
+        <li appHighlight><a href="#" (click)= "playBasic('ComputerGame')">Computer Game</a> </li>
+        <li appHighlight><a href="#" (click)= "playBasic('RandomGame')" >Random PLayers Game</a></li>
+      </ul>
+    </li>
+    <li class="h text-center"><div ><h4>{{gameTitle}}</h4></div></li>
+  </ul>
+  <div class="pull-right"><img class="icon" src="/assets/icon.png"></div>
+</div>
+  </div>
+</nav>
+
+<div class="welcome" *ngIf = "!gameStarted">
+<img  class="center-block welcome" src="/assets/welcome.png">
+<div class="pull-right tic">
+  <img src="/assets/boardTic.jpg">
+</div>
+  <div class="title"><img class="title-img center-block" src="/assets/title.png"></div>
+  </div>
+   <div class="messageBar center-block" *ngIf = "message !== ''" ><h3 class="text-center">{{message}}</h3></div>
+
+   <app-random-players *ngIf = "randomPlayersDisplay" class="pull-left"></app-random-players>
+   <div class="pull-left" *ngIf="!randomPlayersDisplay ">
+    <app-players></app-players>
+  </div>
+ <app-board class="center-block" *ngIf = "gameStarted"></app-board>
+

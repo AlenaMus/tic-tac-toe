@@ -1,0 +1,8 @@
+
+
+<div class="board center-block">
+<div class="row roww" *ngFor = "let row of board" >
+ <app-cell *ngFor="let cell of row" [cell]="cell" [sign]="cell.sign" (playerMove)="play($event)"></app-cell>
+</div>
+</div>
+

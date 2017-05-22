@@ -1,0 +1,19 @@
+tr {
+  background-color: honeydew;
+}
+
+th {
+  width: 20px;
+  background-color: hotpink;
+}
+
+td {
+  width: 20px;
+
+}
+
+table{
+  margin-left: 60px;
+  border-collapse: collapse;
+  width: 200px;
+}

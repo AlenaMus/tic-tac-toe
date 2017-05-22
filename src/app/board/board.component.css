@@ -1,0 +1,12 @@
+.board {
+   position: absolute;
+   display: inline-block;
+   margin-top: 40px;
+   margin-left: 250px;
+   align-content: center;
+
+}
+
+.roww {
+
+}

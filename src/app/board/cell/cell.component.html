@@ -1,0 +1,4 @@
+<div class="cell  center-block"  appHighlight (click)="onCellCliked()">
+  <img *ngIf = "cell.sign !== ''" [ngClass] = "getClass(cell.sign)" class="center-block" src="{{cell.value}}"></div>
+<!--<ng-template #else>" "</ng-template>-->
+

@@ -1,0 +1,33 @@
+
+  <!--<div class="players-t table-responsive table-bordered" >-->
+    <table class="table pull-left" *ngIf ="displayPlayers">
+      <thead>
+      <tr>
+        <th class="text-center">Photo</th>
+        <th class="text-center">Sign</th>
+        <th class="text-center">Name</th>
+        <th class="text-center">Type</th>
+        <th class="text-center">Gender</th>
+        <th class="text-center">Score</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td class="text-center"><img class ="profile-pic" [src]="players[0].photo"></td>
+        <td><div id="dv" class="center-block"><img width ="30" src="assets/X.png" class="center-block"></div></td>
+        <td class="text-center">{{players[0].name}}</td>
+        <td class="text-center">{{players[0].type}}</td>
+        <td class="text-center">{{players[0].gender}}</td>
+        <td class="text-center">{{players[0].score}}</td>
+      </tr>
+      <tr>
+        <td class="text-center"><img class ="profile-pic" [src]="players[1].photo"></td>
+        <td ><img width ="50" src="assets/O.png" class="center-block"></td>
+        <td class="text-center">{{players[1].name}}</td>
+        <td class="text-center">{{players[1].type}}</td>
+        <td class="text-center">{{players[1].gender}}</td>
+        <td class="text-center">{{players[1].score}}</td>
+      </tr>
+    </table>
+  <!--</div>-->
+

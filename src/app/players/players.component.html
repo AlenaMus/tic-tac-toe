@@ -1,0 +1,24 @@
+
+<div class="players-t table-responsive table-bordered" *ngIf="displayME">
+<table class="table pull-left">
+    <thead>
+    <tr>
+      <th class="text-center">Player</th>
+      <th class="text-center">Type</th>
+      <th class="text-center">Score</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td><div id="dv" class="center-block"><img width ="30" src="assets/X.png" class="center-block"></div></td>
+      <td class="text-center">{{playerX.type}}</td>
+      <td class="text-center">{{playerX.score}}</td>
+    </tr>
+    <tr>
+      <td ><img width ="50" src="assets/O.png" class="center-block"></td>
+      <td class="text-center">{{playerO.type}}</td>
+      <td class="text-center">{{playerO.score}}</td>
+    </tr>
+</table>
+</div>
+

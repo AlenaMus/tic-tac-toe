@@ -1,0 +1,28 @@
+.pic {
+  height: 50px;
+  width: 50px;
+}
+
+.players-t{
+  margin-left: 80px;
+
+}
+
+th{
+  background-color: hotpink;
+  text-decoration-style: solid;
+}
+
+td {
+  width: 100px;
+  height: 60px;
+}
+
+tr {
+ height: 50px;
+}
+
+#dv {
+  width:50px;
+  height: 50px;
+}
